@@ -1,1 +1,1 @@
-worker: sh target/bin/spring-boot-starter-parent
+worker: sh target/bin/ClothesWarehouse

@@ -11,8 +11,8 @@
     <groupId>com.sigma</groupId>
     <artifactId>ClothesWarehouse</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Clothes Warehouse</name>
-    <description>Clothes Warehouse</description>
+    <name>ClothesWarehouse</name>
+    <description>ClothesWarehouse</description>
     <properties>
         <java.version>11</java.version>
     </properties>
