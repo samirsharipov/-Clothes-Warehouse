@@ -22,8 +22,8 @@ public interface ProductMapper {
     ProductDTO toDTO(Product product);
 
 
-    @Mapping(target = "categoryGetDto", source = "category")
-    @Mapping(target = "measurementGetDto", source = "measurement")
+    @Mapping(target = "categoryGetDto", source = "category.id")
+    @Mapping(target = "measurementGetDto", source = "measurement.id")
     ProductGetDto getDTO(Product product);
 
 
