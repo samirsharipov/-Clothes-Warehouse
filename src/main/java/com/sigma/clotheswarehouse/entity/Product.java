@@ -38,5 +38,5 @@ public class Product extends AbsEntity {
     private Category category;
 
     @Column(nullable = false)
-    private boolean deleted;
+    private boolean deleted = false;
 }

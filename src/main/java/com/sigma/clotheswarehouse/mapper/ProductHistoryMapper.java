@@ -21,8 +21,8 @@ public interface ProductHistoryMapper {
     ProductHistoryDTO toDTO(ProductHistory productHistory);
 
 
-    @Mapping(target = "clientGetDto", source = "client")
-    @Mapping(target = "productGetDto", source = "product")
+    @Mapping(target = "clientDto", source = "client.id")
+    @Mapping(target = "productDto", source = "product.id")
     ProductHistoryGetDTO toGetDTO(ProductHistory productHistory);
 
     List<ProductHistoryGetDTO> toGetDTOList(List<ProductHistory> productHistoryList);

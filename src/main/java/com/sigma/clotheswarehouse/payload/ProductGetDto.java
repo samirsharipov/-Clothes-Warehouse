@@ -31,5 +31,5 @@ public class ProductGetDto {
 
     private CategoryGetDto categoryGetDto;
 
-    private boolean deleted=false;
+    private boolean deleted;
 }
